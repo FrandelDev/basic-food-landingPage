@@ -61,3 +61,14 @@
   font-weight: bolder;
   padding: 12px 24px;
 }
+
+@media(max-width: 750px){
+  .dishes-grid{
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-auto-rows: 1fr;
+    gap: 20px;
+    justify-content: center;
+  }
+
+}
